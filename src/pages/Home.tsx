@@ -37,7 +37,7 @@ const Home = () => {
                 <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90">
                   <Link to="/chat">Start Exploring</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                <Button asChild size="lg" variant="outline" className="border-white/30 text-primary hover:bg-white/10">
                   <Link to="/map">View Global Map</Link>
                 </Button>
               </div>
