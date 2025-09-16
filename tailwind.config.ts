@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -56,6 +57,30 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        // Scientific Data Visualization Colors
+        chart: {
+          primary: "hsl(var(--chart-primary))",
+          secondary: "hsl(var(--chart-secondary))",
+          tertiary: "hsl(var(--chart-tertiary))",
+          quaternary: "hsl(var(--chart-quaternary))",
+        },
+        // Status Colors for Scientific Data
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
+        // Ocean Theme Gradients
+        ocean: {
+          50: "hsl(210 100% 97%)",
+          100: "hsl(210 100% 94%)",
+          200: "hsl(210 100% 87%)",
+          300: "hsl(210 100% 78%)",
+          400: "hsl(210 100% 66%)",
+          500: "hsl(210 100% 50%)",
+          600: "hsl(210 100% 45%)",
+          700: "hsl(210 100% 40%)",
+          800: "hsl(210 100% 35%)",
+          900: "hsl(210 100% 30%)",
         },
       },
       borderRadius: {
